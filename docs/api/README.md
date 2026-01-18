@@ -1,6 +1,10 @@
+**tinky-table**
+
+---
+
 # tinky-table
 
-[简体中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md)
+[简体中文](_media/README.zh-CN.md) | [日本語](_media/README.ja-JP.md)
 
 A feature-rich, customizable Table component for [tinky](https://github.com/ByteLandTechnology/tinky) applications. Built for terminal user interfaces with support for sorting, pagination, custom cell rendering, and flexible layouts.
 

@@ -1,25 +1,24 @@
 {
-  "name": "tinky",
+  "name": "tinky-table",
   "version": "0.1.0",
-  "description": "React for CLIs, re-imagined with the Taffy engine",
+  "description": "A feature-rich, customizable Table component for tinky applications",
   "keywords": [
+    "tinky",
+    "table",
     "react",
-    "ink",
-    "taffy",
     "cli",
     "terminal",
-    "layout-engine",
-    "flexbox",
-    "grid",
-    "renderer"
+    "component",
+    "datagrid",
+    "ui"
   ],
-  "homepage": "https://github.com/ByteLandTechnology/tinky#readme",
+  "homepage": "https://github.com/ByteLandTechnology/tinky-table#readme",
   "bugs": {
-    "url": "https://github.com/ByteLandTechnology/tinky/issues"
+    "url": "https://github.com/ByteLandTechnology/tinky-table/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ByteLandTechnology/tinky.git"
+    "url": "git+https://github.com/ByteLandTechnology/tinky-table.git"
   },
   "license": "MIT",
   "author": {
@@ -28,22 +27,21 @@
   "type": "module",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "tsc",
+    "test": "bun test",
     "build": "tsc && npm run docs",
     "lint": "eslint src tests",
     "prepublish": "npm run build",
     "prepare": "husky",
     "docs": "typedoc --plugin typedoc-plugin-markdown --disableSources --out docs/api && prettier --write docs/api"
   },
-  "dependencies": {
-    "tslint": "^5.20.1",
-    "typescript": "^5.9.3"
-  },
   "files": [
     "./bin/*",
     "./lib/*"
   ],
   "typings": "./lib/index.d.ts",
+  "peerDependencies": {
+    "tinky": "^1.2.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^20.3.0",
     "@commitlint/config-conventional": "^20.3.0",
@@ -51,6 +49,7 @@
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^12.0.0",
     "@semantic-release/npm": "^13.1.3",
+    "@types/bun": "^1.3.6",
     "eslint": "^9.39.2",
     "eslint-plugin-react": "^7.37.5",
     "husky": "^9.1.7",
