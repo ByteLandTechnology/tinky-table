@@ -1,0 +1,10 @@
+## 1.0.0 (2026-01-18)
+
+- ci: add release workflow ([3975fbb](https://github.com/ByteLandTechnology/tinky-table/commit/3975fbb))
+- feat: implement Table component with flexible layout, styling ([7e1a653](https://github.com/ByteLandTechnology/tinky-table/commit/7e1a653))
+- feat: initial commit ([39873cc](https://github.com/ByteLandTechnology/tinky-table/commit/39873cc))
+- chore: add semantic-release configuration and update package.json ([95bb874](https://github.com/ByteLandTechnology/tinky-table/commit/95bb874))
+- chore: configure husky ([cf5bf31](https://github.com/ByteLandTechnology/tinky-table/commit/cf5bf31))
+- chore: configure lint-staged ([d99b8f7](https://github.com/ByteLandTechnology/tinky-table/commit/d99b8f7))
+- chore: setup commitlint ([97c35c3](https://github.com/ByteLandTechnology/tinky-table/commit/97c35c3))
+- chore: update project configuration ([84ae01e](https://github.com/ByteLandTechnology/tinky-table/commit/84ae01e))
