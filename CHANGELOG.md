@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/ByteLandTechnology/tinky-table/compare/v1.0.0...v1.0.1) (2026-01-18)
+
+### 📦 Build
+
+- install conventional-changelog dependencies and fix changelog format ([c06c8a7](https://github.com/ByteLandTechnology/tinky-table/commit/c06c8a7fdb5a769a518f33395f5e9bd474154934))
+
 ## 1.0.0 (2026-01-18)
 
 ### ✨ Features
