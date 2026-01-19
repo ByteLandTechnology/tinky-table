@@ -28,7 +28,7 @@ Border character set
 
 Position of the separator ('top' | 'middle' | 'bottom')
 
-`"top"` | `"bottom"` | `"middle"`
+`"top"` | `"middle"` | `"bottom"`
 
 ## Returns
 

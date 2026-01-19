@@ -10,7 +10,7 @@
 
 ### alignContent?
 
-> `readonly` `optional` **alignContent**: `"center"` \| `"end"` \| `"start"` \| `"space-around"` \| `"space-between"` \| `"space-evenly"` \| `"stretch"` \| `"flex-end"` \| `"flex-start"`
+> `readonly` `optional` **alignContent**: `"center"` \| `"end"` \| `"flex-start"` \| `"flex-end"` \| `"stretch"` \| `"start"` \| `"space-between"` \| `"space-around"` \| `"space-evenly"`
 
 Align content.
 Modifies the behavior of `flexWrap`. It aligns flex lines much like
@@ -24,7 +24,7 @@ Modifies the behavior of `flexWrap`. It aligns flex lines much like
 
 ### alignItems?
 
-> `readonly` `optional` **alignItems**: `"center"` \| `"end"` \| `"start"` \| `"stretch"` \| `"flex-end"` \| `"flex-start"`
+> `readonly` `optional` **alignItems**: `"center"` \| `"end"` \| `"flex-start"` \| `"flex-end"` \| `"stretch"` \| `"start"`
 
 Align items.
 Defines the default behavior for how flex items are laid out along the
@@ -46,7 +46,7 @@ cross axis on the current line.
 
 ### alignSelf?
 
-> `readonly` `optional` **alignSelf**: `"auto"` \| `"center"` \| `"end"` \| `"start"` \| `"flex-end"` \| `"flex-start"`
+> `readonly` `optional` **alignSelf**: `"center"` \| `"auto"` \| `"end"` \| `"flex-start"` \| `"flex-end"` \| `"start"`
 
 Align self.
 Allows overriding the `alignItems` value for specific flex items.
@@ -202,7 +202,7 @@ false;
 
 ### borderStyle?
 
-> `readonly` `optional` **borderStyle**: `BoxStyle` \| keyof Boxes
+> `readonly` `optional` **borderStyle**: keyof Boxes \| `BoxStyle`
 
 Border style.
 If `undefined` (default), no border is added.
@@ -263,7 +263,7 @@ Size of the gap between an element's columns.
 
 ### display?
 
-> `readonly` `optional` **display**: `"flex"` \| `"none"` \| `"grid"`
+> `readonly` `optional` **display**: `"none"` \| `"grid"` \| `"flex"`
 
 Display type of the element.
 
@@ -289,7 +289,7 @@ is distributed.
 
 ### flexDirection?
 
-> `readonly` `optional` **flexDirection**: `"column"` \| `"column-reverse"` \| `"row"` \| `"row-reverse"`
+> `readonly` `optional` **flexDirection**: `"row"` \| `"column"` \| `"row-reverse"` \| `"column-reverse"`
 
 Flex direction.
 Establishes the main-axis, defining the direction flex items are placed
@@ -340,7 +340,7 @@ items when there is not enough space.
 
 ### flexWrap?
 
-> `readonly` `optional` **flexWrap**: `"nowrap"` \| `"wrap"` \| `"wrap-reverse"`
+> `readonly` `optional` **flexWrap**: `"wrap"` \| `"nowrap"` \| `"wrap-reverse"`
 
 Flex wrap behavior.
 Defines whether flex items are forced onto one line or can wrap onto
@@ -376,7 +376,7 @@ Specifies the size of an implicitly-created grid column track.
 
 ### gridAutoFlow?
 
-> `readonly` `optional` **gridAutoFlow**: `"column"` \| `"row"` \| `"row-dense"` \| `"column-dense"`
+> `readonly` `optional` **gridAutoFlow**: `"row"` \| `"column"` \| `"row-dense"` \| `"column-dense"`
 
 Grid auto flow.
 Controls how the auto-placement algorithm works.
@@ -476,7 +476,7 @@ Can be a number (in lines) or a percentage string (e.g., "50%").
 
 ### justifyContent?
 
-> `readonly` `optional` **justifyContent**: `"center"` \| `"end"` \| `"start"` \| `"space-around"` \| `"space-between"` \| `"space-evenly"` \| `"flex-end"` \| `"flex-start"`
+> `readonly` `optional` **justifyContent**: `"center"` \| `"end"` \| `"flex-start"` \| `"flex-end"` \| `"start"` \| `"space-between"` \| `"space-around"` \| `"space-evenly"`
 
 Justify content.
 Defines the alignment along the main axis.
@@ -498,7 +498,7 @@ Defines the alignment along the main axis.
 
 ### justifyItems?
 
-> `readonly` `optional` **justifyItems**: `"center"` \| `"end"` \| `"stretch"` \| `"flex-end"` \| `"flex-start"`
+> `readonly` `optional` **justifyItems**: `"center"` \| `"end"` \| `"flex-start"` \| `"flex-end"` \| `"stretch"`
 
 Justify items.
 Defines the default `justify-self` for all items of the box.
@@ -511,7 +511,7 @@ Defines the default `justify-self` for all items of the box.
 
 ### justifySelf?
 
-> `readonly` `optional` **justifySelf**: `"auto"` \| `"center"` \| `"end"` \| `"stretch"` \| `"flex-end"` \| `"flex-start"`
+> `readonly` `optional` **justifySelf**: `"center"` \| `"auto"` \| `"end"` \| `"flex-start"` \| `"flex-end"` \| `"stretch"`
 
 Justify self.
 Sets the way a box is justified inside its alignment container along
@@ -601,7 +601,7 @@ Minimum width of the element.
 
 ### overflow?
 
-> `readonly` `optional` **overflow**: `"hidden"` \| `"visible"`
+> `readonly` `optional` **overflow**: `"visible"` \| `"hidden"`
 
 Overflow behavior.
 Sets the behavior for an element's overflow in both directions.
@@ -616,7 +616,7 @@ Sets the behavior for an element's overflow in both directions.
 
 ### overflowX?
 
-> `readonly` `optional` **overflowX**: `"hidden"` \| `"visible"`
+> `readonly` `optional` **overflowX**: `"visible"` \| `"hidden"`
 
 Horizontal overflow behavior.
 
@@ -630,7 +630,7 @@ Horizontal overflow behavior.
 
 ### overflowY?
 
-> `readonly` `optional` **overflowY**: `"hidden"` \| `"visible"`
+> `readonly` `optional` **overflowY**: `"visible"` \| `"hidden"`
 
 Vertical overflow behavior.
 
@@ -723,7 +723,7 @@ Size of the gap between an element's rows.
 
 ### textWrap?
 
-> `readonly` `optional` **textWrap**: `"end"` \| `"truncate"` \| `"middle"` \| `"wrap"` \| `"truncate-end"` \| `"truncate-middle"` \| `"truncate-start"`
+> `readonly` `optional` **textWrap**: `"middle"` \| `"wrap"` \| `"end"` \| `"truncate-end"` \| `"truncate"` \| `"truncate-middle"` \| `"truncate-start"`
 
 Text wrapping behavior.
 

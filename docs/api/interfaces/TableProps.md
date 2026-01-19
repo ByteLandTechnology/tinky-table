@@ -177,7 +177,7 @@ Sort state for the table.
 
 ### width?
 
-> `readonly` `optional` **width**: `number` \| `"auto"` \| `` `${number}%` ``
+> `readonly` `optional` **width**: `number` \| `` `${number}%` `` \| `"auto"`
 
 The total width of the table.
 

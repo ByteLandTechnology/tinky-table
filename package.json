@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "author": {
-    "name": "ByteLandTechnology"
+    "name": "ByteLand Technology Limited"
   },
   "type": "module",
   "main": "./lib/index.js",
