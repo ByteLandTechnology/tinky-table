@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/ByteLandTechnology/tinky-table/compare/v1.0.2...v1.0.3) (2026-02-04)
+
+### 🔧 Chores
+
+- **deps:** update tinky peer dependency to >=1.4.3 ([e265689](https://github.com/ByteLandTechnology/tinky-table/commit/e265689825a99df745919279b7edf17614d84b07))
+
 ## [1.0.2](https://github.com/ByteLandTechnology/tinky-table/compare/v1.0.1...v1.0.2) (2026-01-19)
 
 ### 📦 Build
