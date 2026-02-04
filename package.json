@@ -40,7 +40,7 @@
   ],
   "typings": "./lib/index.d.ts",
   "peerDependencies": {
-    "tinky": "^1.2.0"
+    "tinky": ">=1.4.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.3.0",
